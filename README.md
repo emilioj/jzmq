@@ -132,6 +132,12 @@ To build a Debian package, run:
 $ dpkg-buildpackage -rfakeroot
 ```
 
+To build an unsigned Debian package, run:
+
+```bash
+$ dpkg-buildpackage -uc -us -rfakeroot
+```
+
 To build an RPM package, run:
 
 ```bash

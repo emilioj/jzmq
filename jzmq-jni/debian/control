@@ -8,7 +8,7 @@ Homepage: https://github.com/zeromq/jzmq
 
 Package: jzmq
 Architecture: any
-Depends: libzmq0 (>= 2.0.10)| libzmq1 (>= 2.0.10), libpgm|libpgm-5.1-0, ${shlibs:Depends}, ${misc:Depends}
+Depends: libzmq5 (>= 4.2.0) | libzmq3 (>= 4.0.0) | libzmq1 (>= 2.2.0), libpgm | libpgm-5.1-0 | libpgm-5.2-0, ${shlibs:Depends}, ${misc:Depends}
 Description: The Java ZeroMQ bindings
  The 0MQ lightweight messaging kernel is a library which extends the standard
  socket interfaces with features traditionally provided by specialised
